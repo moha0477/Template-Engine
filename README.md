@@ -36,7 +36,7 @@ npm run test
 
 ## DEMO
 
-![Employee Summary Demo](Develop/Assets/template-engine.gif)
+![Employee Summary Demo](Assets/template-engine.gif)
 
 
 ## License 
