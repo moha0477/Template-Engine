@@ -1,63 +1,44 @@
 # Template Engine - Employee Summary
 
-## Instructions
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Build a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. This assignment must also pass all unit tests. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user.
+## Description
 
-```
-As a manager
-I want to generate a webpage that displays my team's basic info
-so that I have quick access to emails and GitHub profiles
-```
+This is a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. This assignment must also pass all unit tests. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user.
 
-How do you deliver this? Here are some guidelines:
+## Table of Contents
+  
+[Installation](#installation)
+  
+[Usage](#usage)
+  
+[Tests](#tests)
 
-* Use the [Inquirer npm package](https://github.com/SBoudrias/Inquirer.js/) to prompt the user for their email, id, and specific information based on their role with the company. For instance, an intern may provide their school, whereas an engineer may provide their GitHub username.
+[Demo](#demo)
 
-* Your app will run as a Node CLI to gather information about each employee.
+[License](#license)
 
-In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.
+## Installation
 
-The dependencies are, [jest](https://jestjs.io/) for running the provided tests, and [inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user.
+npm init // npm i inquirer // npm i fs // npm i path // npm i jest
 
-There are also unit tests to help you build the classes necessary.
+## Usage
 
-It is recommended that you follow this workflow:
+Enter node app.js in termimanl and answer the series of promped questions. 
 
-1. Run tests
-2. Create or update classes to pass a single test case
-3. Repeat
+Open the newly generated html file in the output folder. 
 
-🎗 Remember, you can run the tests at any time with `npm run test`
+Open the new html file in the browser to view the generated Employee summaries. 
 
-It is recommended that you start with a directory structure that looks like this:
+## Tests
 
-```
-lib/           // classes and helper code
-output/        // rendered output
-templates/     // HTML template(s)
-test/          // jest tests
-  Employee.test.js
-  Engineer.test.js
-  Intern.test.js
-  Manager.test.js
-app.js         // Runs the application
-```
+npm run test 
+
+## DEMO
+
+![Employee Summary Demo](Develop/Assets/template-engine.gif)
 
 
-## Minimum Requirements
-
-* Functional application.
-
-* GitHub repository with a unique name and a README describing the project.
-
-* User can use the CLI to generate an HTML page that displays information about their team.
-
-* All tests must pass.
-
-### User input
-
-The project must prompt the user to build an engineering team. An engineering
-team consists of a manager, and any number of engineers and interns.
-
-
+## License 
+  
+Licensed under the MIT license. 
