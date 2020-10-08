@@ -5,7 +5,9 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
+// points to the absolute path that the current directory resides in & creates a directory 'output' in it
 const OUTPUT_DIR = path.resolve(__dirname, "output");
+// adds a new html file to the output directory 
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
